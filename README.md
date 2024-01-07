@@ -1,15 +1,34 @@
-# socket
+# Socket.Io
+Este projeto é um exemplo de um servidor Express com integração do Socket.IO. Ele permite a comunicação em tempo real entre clientes e o servidor.
 
-To install dependencies:
+## Pré-requisitos
+Antes de começar, verifique se você possui os seguintes requisitos instalados:
 
-```bash
-bun install
+Node.js 
+
+bun.js
+
+Clone este repositório:
+```
+Copied! ✅
+git clone https://github.com/seu-usuario/seu-projeto.git
+```
+Acesse o diretório do projeto:
+
+```
+Copied! ✅
+cd socket.io
 ```
 
-To run:
-
-```bash
+Instale as dependências do projeto:
+```
+Copied! ✅
+bun install
+```
+Inicie o servidor:
+```
+Copied! ✅
 bun run index.ts
 ```
 
-This project was created using `bun init` in bun v1.0.21. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+
